@@ -3,6 +3,8 @@
   background-image: url("https://unsplash.it/1300/600?random");
   background-size: cover;
   padding: 150px;
+  height: 60vh;
+  z-index: -1;
   color: white;
   text-shadow: 1px 1px 5px black;
 }
