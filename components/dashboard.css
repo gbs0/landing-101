@@ -1,96 +1,11 @@
-/*.dashboard {
-  display: grid;
-  grid-template-columns: calc(70vh + 10px);
-  grid-template-rows: 280px 200px 25% 280px 280px 25%;
-  height: calc(100vh - 80px);
-  margin-top: 20px;
-}
-.dashboard .main {
-  grid-row: 1 / span 3;
-  grid-column: 1 / span 4;
-}
-.dashboard .description {
-  grid-row: 2 / span 2;
-  grid-column: 2 / span 3;
-}*/
-
 .dashboard-item {
   background: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   padding: 10px;
   margin: 5px;
   display: flex;
+  text-align: center;
   align-items: center;
   justify-content: space-around;
   height: 58vh;
-}
-
-.graphchart {
-    /*margin-bottom: 10px;*/
-    resize: 20px;
-  }
-
-#hero-button {
-  align-content: center;
-}
-
-#linechart {
-  grid-row: 2 / span 2;
-
-}
-
-#options-menu {
-  text-align: center;
-  align-self: center;
-}
-
-#toolbar {
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-  position: sticky;
-  height: 80px;
-}
-
-@media (max-width: 992px) {
-  .dashboard {
-    display: block;
-  }
-
-
-
-}
-
-
-/* Fonts and colors */
-.dashboard h2 {
-  font-size: 25px;
-}
-.dashboard h3 {
-  color: #006A9C;
-  font-size: 25px;
-  margin-bottom: 15px;
-}
-.dashboard p {
-  color: rgba(0,0,0,0.5);
-  font-size: 16px;
-}
-.dashboard img {
-  border-radius: 50%;
-}
-.dashboard .btn {
-  border-radius: 5px;
-  border: none;
-  width: 100%;
-  margin-top: 30px;
-  background: #006A9C;
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 15px 20px;
-}
-.dashboard .btn:hover {
-  background: #F27F03;
-  opacity: 0.7;
-}
-.main p {
-  margin-bottom: 30px;
 }
