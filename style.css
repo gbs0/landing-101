@@ -1,5 +1,7 @@
 /* Importing Google fonts */
+
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700");
+
 
 /* Importing components */
 @import url("components/navbar.css");

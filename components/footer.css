@@ -6,12 +6,3 @@
   align-items: center;
   justify-content: space-between;
 }
-
-#footer a {
-  color: lightgrey;
-  font-size: 15px;
-}
-
-#footer a:hover {
-  color: white;
-}
