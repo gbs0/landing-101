@@ -4,4 +4,12 @@
   background-size: cover;
   padding: 150px;
   height: 60vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.signup {
+	position: absolute;
+	margin-top: 14%;
 }
