@@ -2,9 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700");
 
 /* Importing components */
-@import url("components/dashboard.css");
-@import url("components/banner.css");
 @import url("components/navbar.css");
+@import url("components/banner.css");
+@import url("components/dashboard.css");
 @import url("components/card.css");
 @import url("components/footer.css");
 
@@ -17,7 +17,7 @@ p {
   font-weight: lighter;
 }
 h1, h2, h3 {
-  font-family: 'Rubik';
+  font-family: 'Rubik', sans-serif;
   font-weight: bold;
 }
 h1 {
