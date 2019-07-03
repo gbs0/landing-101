@@ -2,9 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=family=Rubik:300,400,500,700");
 
 /* Importing components */
-@import url("components/dashboard.css");
-@import url("components/banner.css");
 @import url("components/navbar.css");
+@import url("components/banner.css");
+@import url("components/dashboard.css");
 @import url("components/card.css");
 @import url("components/footer.css");
 
