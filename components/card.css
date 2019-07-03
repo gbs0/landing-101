@@ -1,23 +1,21 @@
 .card {
 	display: grid;
 	grid-template-columns: 150px 350px;
-	height: 150px;
+	
 	margin: 5% auto;
-	max-width: 600px;
+	
 	background: #fbfbfb;
-	border-radius: 5px;
+	
 	box-shadow: 0px 10px 10px #DEDEDE;
 	position: relative;
 }
 
 .text {
-	margin-top: 1em;
+	
 }
-
 p {
- font-size: 15px;
+ 
 }
-
 #margin {
-	margin-left: 7%;
+	
 }
