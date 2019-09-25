@@ -35,7 +35,7 @@
 
 ```
 
-### 3º - Dentro da tag `<head>` do nosso HTML, iremos importar os meta dados de estilo:
+### 3º - Dentro da tag `<head>` do nosso HTML, iremos importar alguns meta dados importantes:
 > **Definindo conjuntos de acentos e nome na aba do navegador:**
 
 ```
@@ -45,12 +45,6 @@
   </head>
 ``` 
 
-> **Importando o documento de estilo:**
-
-```
-  <link rel="stylesheet" href="style.css">  
-```
-
 > **Configurando escala do ViewPort e compatibilidade com IE:**
 
 ```
@@ -58,20 +52,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 
-> **Importando biblioteca do [Bootstrap](https://bootstrap.com):**
+### 4º - Ainda dentro da tag `<head>` do nosso HTML, iremos importar os meta dados de estilo:
+
+> **Importando o documento de estilo:**
 
 ```
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">  
 ```
 
-> **Importando biblioteca de ícones do [FontAwesome](https://fontawesome.com):**
-
-```
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
- 
-```
-
-### 4º - No arquivo  `style.css` iremos fazer os seguintes `imports`:
+### 5º - No arquivo  `style.css` iremos fazer os seguintes `imports`:
 
 > **Import das Fontes (Source Sans e Montserrat):**
 
@@ -105,7 +94,26 @@
 ```
 h1, h2, h3 {
   font-family: "Montserrat", "sans-serif";
-  font-
+  font-weight: bold;
 }
 ```
+
+
+### 6º - No arquivo  `style.css` iremos fazer os seguintes `imports`:
+
+> **Importando biblioteca do [Bootstrap](https://bootstrap.com):**
+
+```
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+```
+
+> **Importando biblioteca de ícones do [FontAwesome](https://fontawesome.com):**
+
+```
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+ 
+```
+
+
+
 

@@ -33,8 +33,4 @@ p {
   font-weight: lighter;
 }
 
-.container {
-  margin-left: calc(10vh + 10px);
-  margin-right: calc(100vh - 10px);
-}
 
