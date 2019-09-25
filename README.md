@@ -32,7 +32,6 @@
     
   </body>
 </html>
-
 ```
 
 ### 3º - Dentro da tag `<head>` do nosso HTML, iremos importar alguns meta dados importantes:
@@ -63,7 +62,7 @@
 
 ### 5º - No arquivo  `style.css` iremos fazer os seguintes `imports`:
 
-> **Import das Fontes (Source Sans e Montserrat):**
+> **Import da Fonte:**
 
 ```
   @import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700");
@@ -90,7 +89,7 @@
   }
 ```
 
-> **Tipografia dos headers e titulos da página:**
+> **Tipografia dos `headers` e titúlos da página:**
 
 ```
   body {
@@ -120,7 +119,7 @@
 ```
 
 
-### 6º - De volta ao `index.html`, na tag `<head>` do nosso HTML,iremos fazer o **import** das seguintes bibliotecas externas:
+### 6º - De volta ao `index.html`, na tag `<head>` do nosso HTML, iremos fazer o **import** das seguintes bibliotecas externas:
 
 > **Importando biblioteca de ícones do [FontAwesome](https://fontawesome.com):**
 
