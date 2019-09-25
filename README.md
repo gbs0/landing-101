@@ -71,47 +71,7 @@
  
 ```
 
-### 4º - Na tag `<body>`, iremos organizar o resto de nosso conteúdo:
-```
-<body>
-
-    <div class="container">
-      <h1 class="text-center">CSS Components Sprint</h1>
-
-      <h2>Avatar design</h2>
-      
-      
-      <h2>Image Desing</h2>
-      
-
-      <h2>Button design</h2>
-      
-
-      <h2>Badge design</h2>
-      
-
-      <h2>Dropdown design</h2>
-        
-
-      <h2>Form Desing</h2>
-      
-
-      <h2>Card design</h2>
-      
-
-      <h2>Banner design</h2>
-      
-
-      <h2>List design</h2>
-      
-
-      <h2>Pagination Design</h2>
-      
-    </div>
-  </body>
-```
-****
-### 5º - No arquivo  `style.css` iremos fazer os seguintes `imports`:
+### 4º - No arquivo  `style.css` iremos fazer os seguintes `imports`:
 
 > **Import das Fontes (Source Sans e Montserrat):**
 
@@ -122,24 +82,22 @@
 > **Import da estilização dos componentes:**
 
 ```
-@import url("components/avatar.css");
-@import url("components/button.css");
-@import url("components/badge.css");
-@import url("components/dropdown.css");
-@import url("components/card.css");
 @import url("components/banner.css");
-@import url("components/list.css");
+@import url("components/card.css");
+@import url("components/dashboard.css");
+@import url("components/footer.css");
+@import url("components/navbar.css");
 
 ```
 
 > **Estilização do corpo da página do projeto:**
 
 ```
-body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding-bottom: 200px;
-  padding-left: 100px;
-}
+  body {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 200px;
+    padding-left: 100px;
+  }
 ```
 
 > **Tipografia dos headers e titulos da página:**
