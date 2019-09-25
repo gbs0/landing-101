@@ -1,10 +1,6 @@
 .navbar {
   
-  
-  box-shadow: 0px -2px 10px rgba(0,0,0,0.3);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+ 
 }
 
 #login {
