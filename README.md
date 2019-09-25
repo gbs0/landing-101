@@ -93,20 +93,34 @@
 > **Tipografia dos headers e titulos da página:**
 
 ```
-h1, h2, h3 {
-  font-family: "Montserrat", "sans-serif";
-  font-weight: bold;
-}
+  body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  h1, h2, h3 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+  }
+  h1 {
+    font-size: 30px;
+    color: white;
+  }
+  h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 23px;
+  }
+  p {
+    font-weight: lighter;
+  }
+
 ```
 
 
 ### 6º - De volta ao `index.html`, na tag `<head>` do nosso HTML,iremos fazer o **import** das seguintes bibliotecas externas:
-
-> **Importando biblioteca do [Bootstrap](https://bootstrap.com):**
-
-```
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-```
 
 > **Importando biblioteca de ícones do [FontAwesome](https://fontawesome.com):**
 
@@ -114,6 +128,15 @@ h1, h2, h3 {
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
  
 ```
+
+*****
+
+> **Importando biblioteca do [Bootstrap](https://bootstrap.com):**
+
+```
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+```
+
 
 
 
