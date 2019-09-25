@@ -13,9 +13,7 @@ body {
   font-size: 18px;
   font-weight: 300;
 }
-p {
-  font-weight: lighter;
-}
+
 h1, h2, h3 {
   font-family: ;
   font-weight: bold;
@@ -30,6 +28,9 @@ h2 {
 }
 h3 {
   font-size: 23px;
+}
+p {
+  font-weight: lighter;
 }
 
 .container {

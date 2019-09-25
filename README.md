@@ -76,17 +76,17 @@
 > **Import das Fontes (Source Sans e Montserrat):**
 
 ```
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro|Montserrat:400,700");
+  @import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700");
 ```
 
 > **Import da estilização dos componentes:**
 
 ```
-@import url("components/banner.css");
-@import url("components/card.css");
-@import url("components/dashboard.css");
-@import url("components/footer.css");
-@import url("components/navbar.css");
+  @import url("components/banner.css");
+  @import url("components/card.css");
+  @import url("components/dashboard.css");
+  @import url("components/footer.css");
+  @import url("components/navbar.css");
 
 ```
 
@@ -94,9 +94,9 @@
 
 ```
   body {
-    font-family: 'Source Sans Pro', sans-serif;
-    padding-bottom: 200px;
-    padding-left: 100px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
   }
 ```
 
@@ -105,6 +105,7 @@
 ```
 h1, h2, h3 {
   font-family: "Montserrat", "sans-serif";
+  font-
 }
 ```
 
