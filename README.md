@@ -59,6 +59,7 @@
 ```
   <link rel="stylesheet" href="style.css">  
 ```
+*****
 
 ### 5º - No arquivo  `style.css` iremos fazer os seguintes `imports`:
 
@@ -99,7 +100,7 @@ h1, h2, h3 {
 ```
 
 
-### 6º - No arquivo  `style.css` iremos fazer os seguintes `imports`:
+### 6º - De volta ao `index.html`, na tag `<head>` do nosso HTML,iremos fazer o **import** das seguintes bibliotecas externas:
 
 > **Importando biblioteca do [Bootstrap](https://bootstrap.com):**
 
