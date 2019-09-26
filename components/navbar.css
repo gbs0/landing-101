@@ -1,19 +1,11 @@
 .navbar {
- 	height: 70px;
- 	background: white;
- 	box-shadow: 0px -2px 10px rgba(0,0,0,0.3); 
- 	display: flex;
- 	justify-content: space-between;
- 	align-items: center;
- 	width: 100%;
+ 
 }
 
 #login {
-	margin-right: 5%;	
-	text-decoration: none;
+
 }
 
 #logo-navbar {
-	margin-left: 5%;
-	font-size: 30px;
+
 }
