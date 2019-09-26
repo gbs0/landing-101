@@ -1,7 +1,13 @@
 .banner {
-  
+  text-align: center;
+  background-image: url("https://unsplash.it/1300/600?random");
+	background-size: cover;
+  height: 60vh;
+  align-items: flex-start;
+  justify-content: space-around;
+  color: white;
 }
 
-.signup {
-	
+h1 {
+	margin-top: calc(10px - 100vh);
 }

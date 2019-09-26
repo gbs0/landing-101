@@ -1,4 +1,13 @@
 .dashboard-item {
-  
-   
+  background: white;
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+img {
+	width: 150px;
 }
