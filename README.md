@@ -1,6 +1,6 @@
 ## Landing 101 Workshop - Fazendo sua Landing Page em 2 horas!
 ### 1º - Começamos criando nossa pasta e os arquivos que iremos utilizar:
-> **Se preferir, faça o download do template por aqui! [HTML Boilerplate](https://github.com/gbs0/landing-101/tree/boilerplate)**
+> **Se preferir, faça o download do template por aqui! [HTML Boilerplate](https://github.com/gbs0/landing-101/archive/boilerplate.zip)**
 
 ```
 📂seu_projeto
