@@ -4,6 +4,7 @@
 @import url("components/banner.css");
 @import url("components/dashboard.css");
 @import url("components/card.css");
+@import url("components/footer.css");
 
 body {
 	margin: 0;
