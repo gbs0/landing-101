@@ -1,5 +1,10 @@
 .card {
-	
+	display: grid;
+	grid-template-columns: 150px 350px;
+	height: 150px;
+	margin: 5% auto;
+	position: relative;
+	max-width: 600px;  
 }
 
 .text {

@@ -1,11 +1,16 @@
 .navbar {
- 
+ background-color: #e4e4e4;
+ height: 70px;
+ justify-content: space-around;
+ align-items: center;
 }
 
 #login {
-
+	margin-right: 5%;
+	text-decoration: none; 
 }
 
 #logo-navbar {
-
+	margin-left: 5%;
+	font-size: 30px;
 }

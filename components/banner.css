@@ -1,7 +1,15 @@
 .banner {
-
+	text-align: center;
+	background-image: url("https://unsplash.it/1300/600?random");
+	padding: 150px;
+	height: 60vh;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
 }
 
-h1 {
+.signup {
+	position: absolute;
+	margin-top: 10%;
 
 }
